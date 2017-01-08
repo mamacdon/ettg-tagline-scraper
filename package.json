@@ -1,18 +1,21 @@
 {
   "name": "ettg-tagline-finder",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "",
   "main": "index.js",
   "bin": {
     "ettg-tagline-finder": "./bin/cli.js"
   },
   "dependencies": {
+    "bluebird": "^3.4.7",
     "cheerio": "^0.22.0",
+    "nlcst-to-string": "^2.0.0",
+    "nodehun": "^2.0.11",
     "request": "^2.79.0"
   },
   "devDependencies": {},
   "scripts": {
-    "clean": "bin/clean.sh",
+    "clean": "bash bin/clean.sh",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
