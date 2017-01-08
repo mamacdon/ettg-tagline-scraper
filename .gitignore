@@ -1,1 +1,4 @@
+*.log
 node_modules
+text/ids.csv
+text/taglines.txt
