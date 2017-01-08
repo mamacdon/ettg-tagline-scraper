@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "bin": {
+    "ettg-tagline-finder": "./bin/cli.js"
+  },
   "dependencies": {
     "cheerio": "^0.22.0",
     "request": "^2.79.0"
