@@ -1,10 +1,10 @@
 {
-  "name": "ettg-tagline-finder",
+  "name": "ettg-tagline-scraper",
   "version": "0.0.1",
-  "description": "",
+  "description": "Scrape taglines from IMDb",
   "main": "index.js",
   "bin": {
-    "ettg-tagline-finder": "./bin/cli.js"
+    "ettg-tagline-scraper": "./bin/cli.js"
   },
   "dependencies": {
     "bluebird": "^3.4.7",
