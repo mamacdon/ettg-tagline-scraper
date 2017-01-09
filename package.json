@@ -13,10 +13,12 @@
     "nodehun": "^2.0.11",
     "request": "^2.79.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "mocha": "^3.2.0"
+  },
   "scripts": {
     "clean": "bash bin/clean.sh",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha test/test-*.js"
   },
   "author": "",
   "license": "ISC"
