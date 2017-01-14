@@ -1,7 +1,7 @@
 # ettg-tagline-scraper
 Fetches taglines for movies from [IMDB](http://www.imdb.com/). This tool was written to bootstrap
-[ettg-tagline-generator](https://github.com/mamacdon/) and not much effort has been put into making it
-reusable, so YMMV.
+[ettg-tagline-generator](https://github.com/mamacdon/ettg-tagline-generator) and not much effort
+has been put into making it reusable, so YMMV.
 
 ### Usage
 Check out the repo and install it
